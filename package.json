@@ -1,5 +1,5 @@
 {
-  "name": "id-postalcode-api",
+  "name": "id-regions-api",
   "module": "src/index.ts",
   "private": true,
   "scripts": {

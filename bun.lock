@@ -2,7 +2,7 @@
   "lockfileVersion": 1,
   "workspaces": {
     "": {
-      "name": "id-postalcode-api",
+      "name": "id-regions-api",
       "dependencies": {
         "cors": "^2.8.5",
         "express": "^5.1.0",

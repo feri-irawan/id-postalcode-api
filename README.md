@@ -1,6 +1,6 @@
-# id-postalcode-api
+# id-regions-api
 
-API for Indonesian postal code. Using data from [Api Wilayah Indonesia](https://github.com/bukanekosoed/Api-Wilayah-Indonesia).
+API for Indonesian regions. Using data from [Api Wilayah Indonesia](https://github.com/bukanekosoed/Api-Wilayah-Indonesia).
 
 ## Endpoints
 
