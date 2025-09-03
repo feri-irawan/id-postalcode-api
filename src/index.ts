@@ -24,27 +24,27 @@ app.get('/provinces', (_, res) => {
   })
 })
 
-app.get('/provinces/:code', (req, res) => {
+app.get('/regencies/:provinceCode', (req, res) => {
   res.json({
-    data: readRegencies(Number(req.params.code)),
+    data: readRegencies(Number(req.params.provinceCode)),
   })
 })
 
-app.get('/regencies/:code', (req, res) => {
+app.get('/districts/:regencyCode', (req, res) => {
   res.json({
-    data: readDistricts(Number(req.params.code)),
+    data: readDistricts(Number(req.params.regencyCode)),
   })
 })
 
-app.get('/districts/:code', (req, res) => {
+app.get('/villages/:districtCode', (req, res) => {
   res.json({
-    data: readVillages(Number(req.params.code)),
+    data: readVillages(Number(req.params.districtCode)),
   })
 })
 
-app.get('/villages/:code', (req, res) => {
+app.get('/postalcode/:villageCode', (req, res) => {
   res.json({
-    data: readPostalCode(Number(req.params.code)),
+    data: readPostalCode(Number(req.params.villageCode)),
   })
 })
 

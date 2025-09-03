@@ -5,10 +5,10 @@ API for Indonesian postal code. Using data from [Api Wilayah Indonesia](https://
 ## Endpoints
 
 - `GET /provinces` - Get all provinces
-- `GET /provinces/:code` - Get regencies by province code
-- `GET /regencies/:code` - Get districts by regency code
-- `GET /districts/:code` - Get villages by district code
-- `GET /villages/:code` - Get postal code by village code
+- `GET /regencies/:provinceCode` - Get regencies by province code
+- `GET /districts/:regencyCode` - Get districts by regency code
+- `GET /villages/:districtCode` - Get villages by district code
+- `GET /postalcode/:villageCode` - Get postal code by village code
 
 ## Contributing
 
