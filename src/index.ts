@@ -14,7 +14,7 @@ app.use(cors())
 
 app.get('/', (_, res) => {
   res.json({
-    message: 'Welcome to ID Postalcode API',
+    message: 'Welcome to ID Regions API',
   })
 })
 
